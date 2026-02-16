@@ -1,0 +1,41 @@
+"""def add(f,*h):
+    sum=0
+    for i in h:
+        sum=sum+i
+        print(sum+f)
+add(5,10)
+add(5,20,30,40)
+def a():
+    fun=10
+    print(fun)
+a()
+
+fun=20
+def a():
+    print(fun)
+a()
+print(fun)
+
+fun=20
+def a():
+    fun=30
+    print(fun)
+a()
+print(fun)"""
+
+fun=23
+def a():
+    fun=34
+    print(fun)
+print(fun)
+a()
+print(fun)#first print
+
+fun=20
+def a():
+    global fun
+    fun=50#changing the fun value
+    print(fun)
+print(fun)
+a()
+print(fun)# takes un updated value
