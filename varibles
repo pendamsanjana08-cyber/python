@@ -26,10 +26,12 @@ print(fun)"""
 fun=23
 def a():
     fun=34
-    print(fun)
-print(fun)
+    print(fun)#second
+print(fun)#first
 a()
-print(fun)#first print
+print(fun)#third
+
+
 
 fun=20
 def a():
