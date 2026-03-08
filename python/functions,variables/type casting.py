@@ -27,6 +27,7 @@ x=200
 y=str(x)
 print("The number is:",y)
 
+
 """Mixed Type Addition
 Write a program:
 a = "10"
