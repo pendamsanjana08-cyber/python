@@ -66,6 +66,5 @@ def change():
     global x
     x = x + 5
     print("Inside:", x)#x=5+5=10
-
 change()
 print("Outside:", x)#10 because it is lastest updated value of x
