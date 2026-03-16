@@ -17,14 +17,14 @@ print(a<b)
 #Write a program to check if:
 #10 > 5 and 7 < 9
 #Print the result.
-print(10>5&7<9)
+print(10>5 and 7<9)
 
 #Write a program to check if:
 #4 > 10 or 8 < 12
 print(4 > 10 or 8 < 12)
 
 #Write a program that prints the opposite of True using the not operator.
-print(bool("none"))
+print(not True)
 
 #Create two variables:
 #x = 50
@@ -36,6 +36,8 @@ print(x==y)
 
 #Write a program that checks if 100 > 50.
 #If true, print "Yes, it is greater".
+if 100 > 50:
+    print("Yes, it is greater")
 
 
 '''Create two strings:
