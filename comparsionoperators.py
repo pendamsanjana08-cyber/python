@@ -27,6 +27,27 @@ if  (marks>=50):
   print("marks are greater than or equal to 50")
 else:
   print("lesser")
-  
 
+'''Create a variable:
+age = 18
+Check if age is greater than 21.'''
 
+age = 18
+print(age > 21)
+
+'''create a variable:
+temp = 30
+Check if temperature is less than 25.'''
+
+temp = 30
+print(temp < 25)
+
+'''create two variables:
+num1 = 45
+num2 = 30
+Check if num1 is greater than num2.'''
+
+num1 = 45
+num2 = 30
+
+print(num1 > num2)
