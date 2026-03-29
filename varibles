@@ -23,6 +23,7 @@ def a():
 a()
 print(fun)"""
 
+
 fun=23
 def a():
     fun=34
