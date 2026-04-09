@@ -1,14 +1,17 @@
-#Create a variable x with value 10. Add 5 to it using an assignment operator and print the result.
+#Create a variable x with value 10. Add 5 to it using an assignment operator and print the result
+
 x=10
 x+=5
 print("after adding a is:",x)
 
-#Create a variable a with value 20. Subtract 7 from it using an assignment operator and print the result.
+#Create a variable a with value 20. Subtract 7 from it using an assignment operator and print the result
+
 a=20 
 a-=7
 print("after subtracting:",a)
 
 #Create a variable num with value 4. Multiply it by 3 using an assignment operator and print the result.
+
 num=4
 num*=3
 print(num)
