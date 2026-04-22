@@ -1,0 +1,94 @@
+# Print numbers divisible by 3 but not by 5 (1–30)
+
+
+for i in range(1, 31):
+    if i % 3 == 0 and i % 5 != 0:
+        print(i)
+
+# Reverse a number using while loop
+
+num = 1234
+rev = 0
+
+while num > 0:
+    digit = num % 10
+    rev = rev * 10 + digit
+    num //= 10
+
+print(rev)
+
+# Count digits in a number
+num = 98765
+count = 0
+
+while num > 0:
+    count += 1
+    num //= 10
+
+print(count)
+
+# Print pattern
+1
+22
+333
+4444
+
+for i in range(1, 5):
+    print(str(i) * i)
+
+# Find factorial using loop
+
+n = 5
+fact = 1
+for i in range(1, n + 1):
+    fact *= i
+print(fact)
+
+# Check if a number is prime
+
+num = 7
+is_prime = True
+for i in range(2, num):
+    if num % i == 0:
+        is_prime = False
+        break
+if is_prime and num > 1:
+    print("Prime")
+else:
+    print("Not Prime")
+
+# Print Fibonacci series (first 7 terms)
+
+a, b = 0, 1
+for i in range(7):
+    print(a)
+    a, b = b, a + b
+
+
+# Find sum of digits of a number
+
+num = 123
+total = 0
+while num > 0:
+    total += num % 10
+    num //= 10
+print(total)
+
+#Print numbers from 10 to 1 without using negative step in for
+
+i = 10
+while i >= 1:
+    print(i)
+    i -= 1
+
+
+# Find largest digit in a number
+
+num = 5832
+largest = 0
+while num > 0:
+    digit = num % 10
+    if digit > largest:
+        largest = digit
+    num //= 10
+print(largest)
